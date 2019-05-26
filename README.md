@@ -15,7 +15,7 @@
      implementation 'com.cuiernao.acceleratecircularview:AccelerateCircularView:1.0.1'
      
 ## 3、在xml引用
-...xml
+```xml
 <com.cuiernao.acceleratecircularview.view.AccelerateCircularView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,4 +24,4 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
-'''
+```
