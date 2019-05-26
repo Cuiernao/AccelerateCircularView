@@ -4,11 +4,14 @@
 
 
 ## 1、添加远程仓库
-     maven { url "https://raw.githubusercontent.com/Cuiernao/AccelerateCircularView/master" }
+     maven { 
+         url "https://raw.githubusercontent.com/Cuiernao/AccelerateCircularView/master" 
+         }
      
      
      
 ## 2、在module中添加依赖
+
      implementation 'com.cuiernao.acceleratecircularview:AccelerateCircularView:1.0.1'
      
 ## 3、在xml引用
